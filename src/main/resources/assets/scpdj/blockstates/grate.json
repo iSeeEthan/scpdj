@@ -1,7 +1,7 @@
 {
     "variants": {
       "": {
-        "model": "scpdj:block/grate_floor_top"
+        "model": "scpdj:block/grate"
       }
     }
   }

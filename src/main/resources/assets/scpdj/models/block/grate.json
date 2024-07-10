@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
     "textures": {
-      "all": "scpdj:block/grate_floor_top"
+      "all": "scpdj:block/grate"
     }
   }

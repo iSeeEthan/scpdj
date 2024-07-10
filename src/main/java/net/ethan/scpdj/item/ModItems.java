@@ -74,5 +74,5 @@ public class ModItems {
     public static final DeferredItem<BlockItem> classic_lcz_wall_middle1_bloody = ITEMS.registerSimpleBlockItem("classic_lcz_wall_middle1_bloody", ModBlocks.classic_lcz_wall_middle1_bloody);
     public static final DeferredItem<BlockItem> classic_lcz_wall_middle2 = ITEMS.registerSimpleBlockItem("classic_lcz_wall_middle2", ModBlocks.classic_lcz_wall_middle2);
     public static final DeferredItem<BlockItem> classic_lcz_wall_top = ITEMS.registerSimpleBlockItem("classic_lcz_wall_top", ModBlocks.classic_lcz_wall_top);
-    public static final DeferredItem<BlockItem> grate_floor_top = ITEMS.registerSimpleBlockItem("grate_floor_top", ModBlocks.grate_floor_top);
+    public static final DeferredItem<BlockItem> grate = ITEMS.registerSimpleBlockItem("grate", ModBlocks.grate);
 }

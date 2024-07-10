@@ -137,7 +137,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().destroyTime(2.0f)));
     public static final DeferredBlock<Block> classic_lcz_wall_top = BLOCKS.register("classic_lcz_wall_top",
             () -> new Block(BlockBehaviour.Properties.of().destroyTime(2.0f)));
-    public static final DeferredBlock<Block> grate_floor_top = BLOCKS.register("grate_floor_top",
+    public static final DeferredBlock<Block> grate = BLOCKS.register("grate",
             () -> new Block(BlockBehaviour.Properties.of().destroyTime(2.0f)));
 
 }
