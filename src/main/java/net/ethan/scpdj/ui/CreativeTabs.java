@@ -100,6 +100,7 @@ public class CreativeTabs {
                         pOutput.accept(ModBlocks.classic_lcz_wall_middle2.get());
                         pOutput.accept(ModBlocks.classic_lcz_wall_top.get());
                         pOutput.accept(ModBlocks.grate.get());
+                        pOutput.accept(ModBlocks.cabinet.get());
                     })
                     .build());
 }

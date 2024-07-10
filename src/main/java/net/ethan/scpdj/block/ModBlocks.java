@@ -1,7 +1,9 @@
 package net.ethan.scpdj.block;
 
+import net.ethan.scpdj.block.custom.CabinetBlock;
 import net.ethan.scpdj.main.Mod;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -139,5 +141,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().destroyTime(2.0f)));
     public static final DeferredBlock<Block> grate = BLOCKS.register("grate",
             () -> new Block(BlockBehaviour.Properties.of().destroyTime(2.0f)));
-
+        // Testing
+    public static final DeferredBlock<Block> cabinet = BLOCKS.register("cabinet", ()-> new CabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).dynamicShape().noOcclusion()));
 }

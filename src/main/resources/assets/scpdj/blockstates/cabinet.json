@@ -1,8 +1,8 @@
-
 {
   "variants": {
-    "": {
-      "model": "scpdj:block/cabinet"
-    }
+    "facing=north": { "model": "scpdj:block/cabinet" },
+    "facing=south": { "model": "scpdj:block/cabinet", "y": 180 },
+    "facing=west": { "model": "scpdj:block/cabinet", "y": 270 },
+    "facing=east": { "model": "scpdj:block/cabinet", "y": 90 }
   }
 }
