@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "side": "scpdj:block/green_wall_bottom",
+    "top": "scpdj:block/facility_concrete_gray",
+    "bottom": "scpdj:block/facility_concrete_gray"
+  }
+}

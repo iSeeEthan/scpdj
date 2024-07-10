@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+      "all": "scpdj:block/classic_lcz_wall_middle2"
+    }
+  }
