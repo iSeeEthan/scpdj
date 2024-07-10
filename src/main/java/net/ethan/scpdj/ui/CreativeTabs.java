@@ -14,6 +14,24 @@ public class CreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS =
     DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Mod.MODID);
 
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCPDJ_ITEMS_TAB = CREATIVE_TABS.register("scpdj_items_tab",
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.mop.get()))
+                    .title(Component.translatable("creativetab.scpdj_tab2"))
+                    .displayItems((itemDisplayParameters, pOutput) -> {
+                        pOutput.accept(ModItems.mop);
+                        pOutput.accept(ModItems.research_paper);
+                        pOutput.accept(ModItems.keycard_lvl0);
+                        pOutput.accept(ModItems.keycard_lvl1);
+                        pOutput.accept(ModItems.keycard_lvl2);
+                        pOutput.accept(ModItems.keycard_lvl3);
+                        pOutput.accept(ModItems.keycard_lvl4);
+                        pOutput.accept(ModItems.keycard_lvl5);
+                        pOutput.accept(ModItems.keycard_o5);
+                        pOutput.accept(ModItems.keycard_omni);
+
+                    })
+                    .build());
+
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCPDJ_BLOCKS_TAB = CREATIVE_TABS.register("scpdj_blocks_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.classic_hcz_wall_bottom.get()))
                     .title(Component.translatable("creativetab.scpdj_tab"))

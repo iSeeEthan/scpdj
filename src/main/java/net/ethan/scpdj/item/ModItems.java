@@ -9,6 +9,21 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Mod.MODID);
+
+
+    public static final DeferredItem<Item> mop = ITEMS.registerSimpleItem("mop");
+    public static final DeferredItem<Item> research_paper = ITEMS.registerSimpleItem("research_paper");
+    public static final DeferredItem<Item> keycard_lvl0 = ITEMS.registerSimpleItem("keycard_lvl0");
+    public static final DeferredItem<Item> keycard_lvl1 = ITEMS.registerSimpleItem("keycard_lvl1");
+    public static final DeferredItem<Item> keycard_lvl2 = ITEMS.registerSimpleItem("keycard_lvl2");
+    public static final DeferredItem<Item> keycard_lvl3 = ITEMS.registerSimpleItem("keycard_lvl3");
+    public static final DeferredItem<Item> keycard_lvl4 = ITEMS.registerSimpleItem("keycard_lvl4");
+    public static final DeferredItem<Item> keycard_lvl5 = ITEMS.registerSimpleItem("keycard_lvl5");
+    public static final DeferredItem<Item> keycard_o5 = ITEMS.registerSimpleItem("keycard_o5");
+    public static final DeferredItem<Item> keycard_omni = ITEMS.registerSimpleItem("keycard_omni");
+
+
+
     // Other
     public static final DeferredItem<BlockItem> exterior_brick_middle = ITEMS.registerSimpleBlockItem("exterior_brick_middle", ModBlocks.exterior_brick_middle);
     public static final DeferredItem<BlockItem> exterior_brick_bottom = ITEMS.registerSimpleBlockItem("exterior_brick_bottom", ModBlocks.exterior_brick_bottom);
