@@ -91,4 +91,5 @@ public class ModItems {
     public static final DeferredItem<BlockItem> classic_lcz_wall_top = ITEMS.registerSimpleBlockItem("classic_lcz_wall_top", ModBlocks.classic_lcz_wall_top);
     public static final DeferredItem<BlockItem> grate = ITEMS.registerSimpleBlockItem("grate", ModBlocks.grate);
     public static final DeferredItem<BlockItem> cabinet = ITEMS.registerSimpleBlockItem("cabinet", ModBlocks.cabinet);
+    public static final DeferredItem<BlockItem> door1 = ITEMS.registerSimpleBlockItem("door1", ModBlocks.door1);
 }
