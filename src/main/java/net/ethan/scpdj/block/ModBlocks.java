@@ -143,5 +143,4 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().destroyTime(2.0f)));
         // Testing
     public static final DeferredBlock<Block> cabinet = BLOCKS.register("cabinet", ()-> new CabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).dynamicShape().noOcclusion()));
-    public static final DeferredBlock<Block> door1 = BLOCKS.register("door1", ()-> new CabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).dynamicShape().noOcclusion()));
 }
